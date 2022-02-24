@@ -3,12 +3,12 @@
         <h1>Problema de Monty Hall</h1>
         <div class="form">
             <div v-if="!started">
-                <label for="portsAmount"> Quuantas portas? </label>
+                <label for="portsAmount"> Quantas portas? </label>
                 <input type="text" id="portsAmount" size="3"
                 v-model.number="portsAmount">
             </div>
             <div v-if="!started">
-                <label for="selectedPort">Qual porta é a premiada?</label>
+                <label for="selectedPort">Qual porta é a premiada? </label>
                 <input type="text" id="selectedPort" size="3"
                 v-model.number="selectedPort">
             </div>
